@@ -9,16 +9,20 @@ const Router = ({ chilldren }: Props) => {
   return (
     <BrowserRouter>
       {chilldren}
-      <Switch>
-        {paths.map((path, index) => (
-          <Route
-            exact
-            key={index}
-            path={path.path}
-            component={path.component}
-          />
-        ))}
-      </Switch>
+      <div
+        style={{ display: "flex", justifyContent: "space-around", padding: 10 }}
+      >
+        <Switch>
+          {paths.map((path, index) => (
+            <Route
+              exact
+              key={index}
+              path={path.path}
+              component={path.component}
+            />
+          ))}
+        </Switch>
+      </div>
     </BrowserRouter>
   );
 };
