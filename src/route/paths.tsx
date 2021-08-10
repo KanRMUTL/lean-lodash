@@ -2,6 +2,7 @@ import { Route } from "../types/route";
 import Home from "../components/pages/Home";
 import Chunk from "../components/pages/Chunk";
 import Concat from "../components/pages/Concat";
+import Difference from "../components/pages/Difference";
 
 const paths: Route[] = [
   {
@@ -18,6 +19,11 @@ const paths: Route[] = [
     label: "Concat",
     path: "/concat",
     component: Concat,
+  },
+  {
+    label: "Difference",
+    path: "/difference",
+    component: Difference,
   },
 ];
 
