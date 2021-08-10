@@ -7,11 +7,7 @@ import { useToggleSidebar } from "../context/SidebarContext";
 const MenuList = () => {
   const toggleSidebar = useToggleSidebar();
   return (
-    <div
-      style={{ width: 250 }}
-      role="presentation"
-      onClick={() => toggleSidebar(false)}
-    >
+    <div style={{ width: 250, zIndex: 3 }}>
       <List>
         {paths.map((path, index) => (
           <ListItem

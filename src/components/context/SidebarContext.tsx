@@ -1,6 +1,6 @@
 import React, { useContext, createContext, useState } from "react";
 
-const SidebarActive = createContext(true);
+const SidebarActive = createContext(false);
 const ToggleSidebar = createContext((active: boolean) => undefined);
 
 interface Props {
@@ -11,7 +11,7 @@ export const useSideBarActive = () => useContext(SidebarActive);
 export const useToggleSidebar = () => useContext(ToggleSidebar);
 
 const SideBarActiveProvider = ({ children }: Props) => {
-  const [active, setActive] = useState(true);
+  const [active, setActive] = useState(false);
 
   const toggleSidebar = (status: boolean) => {
     setActive(status);
