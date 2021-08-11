@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import UserList from "../../List/UserList";
 import { User } from "../../../types/index";
 import _ from "lodash";
@@ -24,11 +24,11 @@ const ForInRight = () => {
       address: "CNX",
     },
   ];
-  const [result] = useState(
-    _.forInRight(original, (value, key) => {
-      console.log("this is key of list: " + key);
-    })
-  );
+
+  _.forInRight(original, (value, key) => {
+    console.log("this is key of list: " + key);
+  });
+
   return (
     <div
       style={{ display: "flex", justifyContent: "space-around", width: "100%" }}

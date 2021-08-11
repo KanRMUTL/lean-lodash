@@ -10,6 +10,7 @@ import Remove from "../components/pages/Remove";
 import Uniq from "../components/pages/Uniq";
 import ForIn from "../components/pages/ForIn";
 import ForInRight from "../components/pages/ForInRight";
+import Has from "../components/pages/Has";
 
 const paths: Route[] = [
   {
@@ -66,6 +67,11 @@ const paths: Route[] = [
     label: "For in Right",
     path: "/forin-right",
     component: ForInRight,
+  },
+  {
+    label: "Has",
+    path: "/has",
+    component: Has,
   },
 ];
 
