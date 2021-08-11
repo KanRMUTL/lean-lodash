@@ -5,6 +5,7 @@ import Concat from "../components/pages/Concat";
 import Difference from "../components/pages/Difference";
 import Compact from "../components/pages/Compact";
 import Drop from "../components/pages/Drop";
+import DropRight from "../components/pages/DropRight";
 
 const paths: Route[] = [
   {
@@ -36,6 +37,11 @@ const paths: Route[] = [
     label: "Drop",
     path: "/drop",
     component: Drop,
+  },
+  {
+    label: "Drop Right",
+    path: "/drop-right",
+    component: DropRight,
   },
 ];
 
