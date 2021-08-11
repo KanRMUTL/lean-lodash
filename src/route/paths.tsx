@@ -4,6 +4,7 @@ import Chunk from "../components/pages/Chunk";
 import Concat from "../components/pages/Concat";
 import Difference from "../components/pages/Difference";
 import Compact from "../components/pages/Compact";
+import Drop from "../components/pages/Drop";
 
 const paths: Route[] = [
   {
@@ -30,6 +31,11 @@ const paths: Route[] = [
     label: "Compact",
     path: "/compact",
     component: Compact,
+  },
+  {
+    label: "Drop",
+    path: "/drop",
+    component: Drop,
   },
 ];
 
