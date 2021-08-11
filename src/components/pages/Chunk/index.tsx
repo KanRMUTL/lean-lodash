@@ -3,7 +3,7 @@ import NormalList from "../../List/NormalList";
 import _ from "lodash";
 
 const Chunk = () => {
-  const [original] = useState(["Water", "Soda", "Banana", "Orange", "Juse"]);
+  const [original] = useState(["Water", "Soda", "Banana", "Orange", "juice"]);
   const [result] = useState(_.chunk(original, 3));
   console.log(result);
 

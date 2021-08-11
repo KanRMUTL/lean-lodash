@@ -2,7 +2,7 @@ import React from "react";
 import { List, ListItem, ListItemText } from "@material-ui/core";
 
 interface Props {
-  lists: number[] | string[] | (string | number)[];
+  lists: any[];
 }
 
 const NormalList = ({ lists }: Props) => {

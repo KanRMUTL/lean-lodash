@@ -3,6 +3,7 @@ import Home from "../components/pages/Home";
 import Chunk from "../components/pages/Chunk";
 import Concat from "../components/pages/Concat";
 import Difference from "../components/pages/Difference";
+import Compact from "../components/pages/Compact";
 
 const paths: Route[] = [
   {
@@ -24,6 +25,11 @@ const paths: Route[] = [
     label: "Difference",
     path: "/difference",
     component: Difference,
+  },
+  {
+    label: "Compact",
+    path: "/compact",
+    component: Compact,
   },
 ];
 

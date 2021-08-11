@@ -3,7 +3,7 @@ import NormalList from "../../List/NormalList";
 import _ from "lodash";
 
 const Concat = () => {
-  const [original] = useState(["Water", "Soda", "Banana", "Orange", "Juse"]);
+  const [original] = useState(["Water", "Soda", "Banana", "Orange", "juice"]);
   const toConcat = ["New string", 10, "Last concat"];
   const [result] = useState(_.concat(original, toConcat));
 

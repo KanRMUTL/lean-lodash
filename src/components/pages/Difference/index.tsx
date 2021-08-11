@@ -3,7 +3,7 @@ import NormalList from "../../List/NormalList";
 import _ from "lodash";
 
 const Difference = () => {
-  const original = ["Water", "Soda", "Banana", "Orange", "Juse"];
+  const original = ["Water", "Soda", "Banana", "Orange", "juice"];
   const toCompare = ["Soda", "soda", "Water", "water", "Coconut", "Fish"];
   const result = _.difference(original, toCompare);
 
