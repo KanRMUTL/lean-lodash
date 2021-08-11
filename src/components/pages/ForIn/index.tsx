@@ -3,7 +3,7 @@ import UserList from "../../List/UserList";
 import { User } from "../../../types/index";
 import _ from "lodash";
 
-const AssignObject = () => {
+const ForIn = () => {
   const original: User[] = [
     {
       name: "Kan",
@@ -47,4 +47,4 @@ const AssignObject = () => {
   );
 };
 
-export default AssignObject;
+export default ForIn;
