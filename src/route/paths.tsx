@@ -8,6 +8,8 @@ import Drop from "../components/pages/Drop";
 import DropRight from "../components/pages/DropRight";
 import Remove from "../components/pages/Remove";
 import Uniq from "../components/pages/Uniq";
+import ForIn from "../components/pages/ForIn";
+import ForInRight from "../components/pages/ForInRight";
 
 const paths: Route[] = [
   {
@@ -54,6 +56,16 @@ const paths: Route[] = [
     label: "Uniq",
     path: "/uniq",
     component: Uniq,
+  },
+  {
+    label: "For In",
+    path: "/forin",
+    component: ForIn,
+  },
+  {
+    label: "For in Right",
+    path: "/forin-right",
+    component: ForInRight,
   },
 ];
 
