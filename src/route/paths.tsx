@@ -7,6 +7,7 @@ import Compact from "../components/pages/Compact";
 import Drop from "../components/pages/Drop";
 import DropRight from "../components/pages/DropRight";
 import Remove from "../components/pages/Remove";
+import Uniq from "../components/pages/Uniq";
 
 const paths: Route[] = [
   {
@@ -48,6 +49,11 @@ const paths: Route[] = [
     label: "Remove",
     path: "/remove",
     component: Remove,
+  },
+  {
+    label: "Uniq",
+    path: "/uniq",
+    component: Uniq,
   },
 ];
 
