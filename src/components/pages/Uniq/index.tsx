@@ -23,7 +23,7 @@ const Drop = () => {
         <NormalList lists={original} />
       </div>
       <div style={{ width: "50%" }}>
-        <h4>After Remove</h4>
+        <h4>After Use Uniq</h4>
         <NormalList lists={result} />
       </div>
     </div>

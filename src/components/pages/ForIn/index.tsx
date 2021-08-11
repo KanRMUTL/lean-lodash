@@ -43,10 +43,6 @@ const AssignObject = () => {
         <h4>Original</h4>
         <UserList users={original} />
       </div>
-      <div style={{ width: "50%" }}>
-        <h4>After Remove</h4>
-        <UserList users={result} />
-      </div>
     </div>
   );
 };
