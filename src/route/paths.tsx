@@ -6,6 +6,7 @@ import Difference from "../components/pages/Difference";
 import Compact from "../components/pages/Compact";
 import Drop from "../components/pages/Drop";
 import DropRight from "../components/pages/DropRight";
+import Remove from "../components/pages/Remove";
 
 const paths: Route[] = [
   {
@@ -42,6 +43,11 @@ const paths: Route[] = [
     label: "Drop Right",
     path: "/drop-right",
     component: DropRight,
+  },
+  {
+    label: "Remove",
+    path: "/remove",
+    component: Remove,
   },
 ];
 
